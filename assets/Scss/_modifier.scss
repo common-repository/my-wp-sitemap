@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+.-searchHighlight {
+	font-weight: bold;
+	background-color: yellow;
+}
+
+.-w100 {
+	width: 100%;
+}
+
+.-btn {
+	padding: 2px 8px;
+	background-color: lightgray;
+	border: 1px solid #000000;
+}
+
+.-current {
+	font-weight: bold;
+}
+
+.-error {
+	color: red;
+}

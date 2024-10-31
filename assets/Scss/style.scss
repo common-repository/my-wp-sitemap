@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+//____________________________
+//読み込み
+//____________________________
+@import 'configuration';
+
+@import 'modifier';
+
+@import 'reset';
+
+//____________________________
+//スタイル
+//____________________________
+.mws {
+	padding-top: 4rem;
+
+	.mws__table {
+		max-width: 100%;
+		overflow-x: scroll;
+
+		.mws__tr {
+			.mws__th ,
+			.mws__td {
+				padding: 0.8rem;
+				white-space: nowrap;
+				border: 0.1rem solid;
+			}
+
+			.mws__th {
+				color: $white_fff;
+				background-color: $black_000;
+			}
+		}
+	}
+}

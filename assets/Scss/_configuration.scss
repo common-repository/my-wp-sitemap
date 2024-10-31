@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+html {
+	font-size: 62.5%;
+}
+
+@mixin flex {
+	display: -webkit-flex;
+	display:    -moz-flex;
+	display:     -ms-flex;
+	display:      -o-flex;
+	display:         flex;
+}
+
+$black_000: #000000;
+$white_fff: #ffffff;
